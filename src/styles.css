@@ -1,0 +1,27 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: system-ui;
+  display: grid;
+  place-items: center;
+  gap: 2rem;
+  align-content: center;
+}
+
+#root {
+  padding-block: 5rem;
+  display: grid;
+  place-items: center;
+  gap: 2rem;
+  align-content: center;
+}
+
+button {
+  font-size: larger;
+  padding: 0.5rem 1rem;
+}
